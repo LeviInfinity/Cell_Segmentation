@@ -1,0 +1,25 @@
+﻿Build started 2/23/2019 4:53:13 PM.
+     1>Project "E:\scf17\scf17\scf17\scf17.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio Community 2013\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /MP /Od /D WIN32 /D WIN64 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt fileio.cpp
+         Skipping... (no relevant changes detected)
+         fileio.cpp
+       Link:
+         E:\Visual Studio Community 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\scf17\scf17\x64\Debug\scf17.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\scf17\scf17\x64\Debug\scf17.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\scf17\scf17\x64\Debug\scf17.lib" /MACHINE:X64 x64\Debug\edge_detect.cu.obj
+         x64\Debug\kmeans.cu.obj
+         x64\Debug\main.cu.obj
+         x64\Debug\fileio.obj
+         scf17.vcxproj -> E:\scf17\scf17\x64\Debug\scf17.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "E:\scf17\scf17\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "E:\scf17\scf17\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "E:\scf17\scf17\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "E:\scf17\scf17\scf17\scf17.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.75

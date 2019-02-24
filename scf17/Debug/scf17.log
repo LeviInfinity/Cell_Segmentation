@@ -1,0 +1,51 @@
+﻿Build started 1/11/2017 11:03:55 PM.
+     1>Project "E:\scf17\scf17\scf17\scf17.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         E:\Visual Studio Community 2013\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c E:\scf17\scf17\scf17\main.cu 
+       CudaBuild:
+         Compiling CUDA source file main.cu...
+         cmd.exe /C "C:\Users\bose\AppData\Local\Temp\tmpdf5b5ccf44004582908468bd6071a3d1.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "E:\Visual Studio Community 2013\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\main.cu.obj "E:\scf17\scf17\scf17\main.cu"
+         
+         E:\scf17\scf17\scf17>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "E:\Visual Studio Community 2013\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\main.cu.obj "E:\scf17\scf17\scf17\main.cu" 
+     1>e:\scf17\scf17\scf17\CImg.h(133): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+     1>e:\scf17\scf17\scf17\globals.hpp(28): warning C4005: 'cimg_display' : macro redefinition
+     1>e:\scf17\scf17\scf17\CImg.h(26550): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26864): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26934): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27115): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27324): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26550): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26864): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26934): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27115): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27324): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26550): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26864): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26934): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27115): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27324): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(14378): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26550): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26864): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26934): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27115): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27324): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26550): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26864): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26934): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27115): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27324): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26550): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26864): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(26934): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27115): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(27324): warning : statement is unreachable
+     1>e:\scf17\scf17\scf17\CImg.h(133): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+     1>e:\scf17\scf17\scf17\globals.hpp(28): warning C4005: 'cimg_display' : macro redefinition
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\CUDA 7.5.targets(604,9): warning MSB5021: "cmd" and its child processes are being terminated in order to cancel the build.
+     1>Done Building Project "E:\scf17\scf17\scf17\scf17.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.12
